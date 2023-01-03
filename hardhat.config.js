@@ -15,6 +15,11 @@ module.exports = {
     goerli: {
       url: GOERLI_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
-    }
+    },
+    localhost: {
+      url: "http://127.0.0.1:8545/",
+      // accounts: [],
+      chainId: 31337,
+    },
   }
 };
